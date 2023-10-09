@@ -1,0 +1,43 @@
+/******************************************************************************
+Suma, resta, divide y multiplica
+Nombre: Elisa Michelle Medina Vázquez
+Fecha: 120422
+*******************************************************************************/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //Variables
+    float numero1,numero2,suma,resta,division,multiplicacion;
+    
+    //Recoleccion de Valores
+    cout<<"Ingrese su primer valor ";
+    cin>>numero1;
+    
+    cout<<"Ingrese su segundo valor ";
+    cin>>numero2;
+    
+    //Proceso
+    suma=numero1+numero2;
+    cout<<"El valor de suma es..."<<suma<<endl;
+    resta=numero1-numero2;
+    cout<<"El valor de resta es...."<<resta<<endl;
+    division=numero1/numero2;
+    cout<<"La division da un total de..."<<division<<endl;
+    multiplicacion=numero1*numero2;
+    cout<<"El valor de la multiplicacion da un total de..."<<multiplicacion<<endl;
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
